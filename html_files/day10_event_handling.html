@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Event Handling
+    </title>
+</head>
+<body>
+    <div class="container">
+        <p class="change-text">Text befor press button</p>
+    </div>
+    <button class="button-change-text">Changed Text</button> <br /> <br />
+
+    <img src="../img/forEventHadling.jpg" alt="image Not Availabe" class="toggle-image" /> <br />
+    <button class="hiding-button">Hide Image</button>
+    <button class="show-button">Show Image</button><br /> <br />
+    <p class="change-bgc" style="background-color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore enim natus excepturi ratione totam quam animi quia soluta libero voluptates quo veritatis similique est doloribus a, distinctio molestias earum alias.
+    Ipsum nulla velit fugit doloribus commodi sequi soluta facere dolore, magnam quae cupiditate natus voluptatem nam sint! Magnam minima alias consectetur at neque sint nobis eum, repellat, ad pariatur aspernatur?
+    Quia, saepe non molestias iure natus recusandae sint architecto aliquid voluptas laborum soluta dolorum commodi, tenetur, cumque corporis.</p>
+
+    <div>
+        <label for="keydowns">Key are Loged on console: </label>
+        <input type="text" id="keydowns" name="keydowns" class="keylog"/>
+    </div>
+    <form action="submit" id="submit-it" name="login" class="prevent-default">
+        <label for="Email-label">Enter Email: </label> <br />
+        <input type="email" id='Email-label' name="Email-label" class="email-field" autocomplete="email"/> <br /> 
+        <label for="password-label">Enter Password: </label> <br />
+        <input type="password" id= "password-label" name="password-label"> <br />
+        <button>Log Data</button>
+    </form> <br />
+    <select class="write-in-p">
+        <option value="" disabled selected>Select a text</option>
+        <option value="actual value 1">Display Text 1</option>
+        <option value="actual value 2">Display Text 2</option>
+        <option value="actual value 3">Display Text 3</option>
+    </select>
+    <p class="select-value"></p>
+
+    <ul class="delegation">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <ul class="delegationDynamic">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <button class="addItem">Add Item</button>
+</body>
+<script src="../day10_event_handling.js"></script>
+</html>
